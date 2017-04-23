@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".apkgalaxydata" />
-        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".downloadLinkBrowser"></activity>
     </application>
 
 </manifest>

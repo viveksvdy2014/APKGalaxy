@@ -40,18 +40,27 @@
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="17sp" />
 
 
             <TextView
                 android:id="@+id/downloadTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Download Options : - "
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-
+            <ImageView
+                android:id="@+id/driveImage"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/drive" />
 
 
         </LinearLayout>
