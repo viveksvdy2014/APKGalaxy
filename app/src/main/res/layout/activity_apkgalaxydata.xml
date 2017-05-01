@@ -8,25 +8,22 @@
     android:id="@+id/uiLinear"
     tools:context="com.speedyapps.apkgalaxy.apkgalaxydata">
 
-
-    <ListView
-        android:id="@+id/list"
+    <android.support.v4.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="@color/colorPrimaryDark"
-        android:dividerHeight="5.0sp"/>
+        android:id="@+id/swipe">
 
-    <ImageView
-        android:id="@+id/loading"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
-        android:scaleType="fitXY"
-        android:visibility="invisible"
-        app:srcCompat="@drawable/loading" />
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimaryDark"
+            android:dividerHeight="5.0sp"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
 </RelativeLayout>
